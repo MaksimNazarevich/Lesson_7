@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap');
+
+
+@font-face {
+	font-family:"Fits";
+	src: url("../fonts/Fits-Regular.woff2") format("woff2"), url("../fonts/Fits-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:"Fits";
+	src: url("../fonts/Fits-Bold.woff2") format("woff2"), url("../fonts/Fits-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:"Fits";
+	src: url("../fonts/Fits-Black.woff2") format("woff2"), url("../fonts/Fits-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body{
+    font-family: "Fits";
+    
+}
+
+.container{
+    background:  linear-gradient(to bottom, rgba(243,226,199,1) 0%, rgba(233,212,179,0.8) 34%, rgba(182,141,76,0.58) 70%, rgba(193,158,103,0.44) 94%, rgba(193,158,103,0.4) 100%);
+    
+    
+}
+
+.top {
+    background:  linear-gradient(to bottom, rgba(243,226,199,1) 0%, rgba(233,212,179,0.76) 34%, rgba(193,158,103,0.47) 75%, rgba(182,141,76,0.35) 92%, rgba(182,141,76,0.29) 100%),url('../img/les.png') no-repeat right 25px / 180px ,url('../img/1.jpg') no-repeat 0 0 / cover;
+    min-height: 250px;
+    max-height: 250px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(5, 3, 0, 0.655); 
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.top h1{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.top-titles{
+    display: inline-block;
+    padding: 20px 0 0 30px;
+}
+
+[class*="__container"]{
+	max-width: 1100px;
+	margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    outline: 1px solid black;
+    box-shadow: 3px 4px 5px black;
+    border-radius: 4px;
+
+}
+
+.text-list{
+    margin-bottom: 10px;
+}
+ul li{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+
+.bold-span{
+    font-weight: 700;
+}
+
+.text p{
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+.text{
+    background:  linear-gradient(to bottom, rgba(243,226,199,1) 0%, rgba(233,212,179,0.8) 34%, rgba(182,141,76,0.58) 70%, rgba(193,158,103,0.44) 94%, rgba(193,158,103,0.4) 100%);
+}
+.adam,
+.valerian,
+.bruno,
+.vasilisa,
+.umberto,
+.bruno-adam,
+.valeriy{
+    margin-bottom: 20px;
+    padding: 10px;
+    
+    
+}
+
+.image-block img{
+    display: block;
+    border: 10px solid #f7f5f5;
+    border-bottom: 15px solid #f9f3f3;
+    box-shadow: 0px 0px 7px rgba(21, 20, 20, 0.57);
+    max-width: 350px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.center{
+    text-align: center;
+    font-size: 60px;
+    color: brown;
+}
+
+a{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.men-content{
+    min-height: 800px;
+    background-image: url('../img/men.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.men-content{
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.courses-container{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+    min-height: 100%;
+	overflow: hidden;
+	max-width: 810px;
+	margin: 0 auto;
+	
+}
+.main-article p,
+.main-article ul,
+.quote,
+.courses-container h1{
+	margin: 0 0 24px 0;
+}
+
+
+.courses-container h1{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	padding: 56px 0 16px 0;
+}
+
+
+
+.bold-paragraph,
+.quote{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+	
+}
+.quote{
+	
+	padding: 24px 0 24px 45px ;
+}
+.courses-container img{
+	margin: 0 0 24px 0;
+}
+
+.list{
+	padding-left: 32px;
+}
